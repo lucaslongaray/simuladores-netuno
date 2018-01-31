@@ -1,0 +1,12 @@
+# Blender MTL File: 'teste.blend'
+# Material Count: 1
+
+newmtl Material.005
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.379227 0.379227 0.379227
+Ks 0.301105 0.301105 0.301105
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd textures/soil_sand_0045_01.jpg

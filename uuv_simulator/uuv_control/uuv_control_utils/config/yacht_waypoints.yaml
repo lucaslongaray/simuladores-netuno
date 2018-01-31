@@ -1,0 +1,300 @@
+-
+  point: [40, 1, -5]
+  max_forward_speed: 0.4
+  heading: 0
+  use_fixed_heading: False
+-
+  point: [48, 30, -5]
+  max_forward_speed: 0.4
+  heading: 0
+  use_fixed_heading: False
+-
+  point: [45, 60, -5]
+  max_forward_speed: 0.4
+  heading: 0
+  use_fixed_heading: False
+-
+  point: [-20, 100, -5]
+  max_forward_speed: 0.4
+  heading: 0
+  use_fixed_heading: False
+-
+  point: [-45, 105, -5]
+  max_forward_speed: 0.4
+  heading: 0
+  use_fixed_heading: False
+-
+  point: [-60, 105, -5]
+  max_forward_speed: 0.4
+  heading: 0
+  use_fixed_heading: False
+-
+  point: [0, 90, -5]
+  max_forward_speed: 0.4
+  heading: 0
+  use_fixed_heading: False
+-
+  point: [0, 60, -5]
+  max_forward_speed: 0.4
+  heading: 0
+  use_fixed_heading: False
+-
+  point: [-60, 50, -5]
+  max_forward_speed: 0.4
+  heading: 0
+  use_fixed_heading: False
+-
+  point: [-50, 30, -5]
+  max_forward_speed: 0.4
+  heading: 0
+  use_fixed_heading: False
+-
+  point: [0, 28, -5]
+  max_forward_speed: 0.4
+  heading: 0
+  use_fixed_heading: False
+-
+  point: [-5, 5, -5]
+  max_forward_speed: 0.4
+  heading: 0
+  use_fixed_heading: False
+-
+  point: [-50, 0, -5]
+  max_forward_speed: 0.4
+  heading: 0
+  use_fixed_heading: False
+-
+  point: [-35, -10, -5]
+  max_forward_speed: 0.4
+  heading: 0
+  use_fixed_heading: False
+-
+  point: [0, -10, -5]
+  max_forward_speed: 0.4
+  heading: 0
+  use_fixed_heading: False
+-
+  point: [-5, -45, -5]
+  max_forward_speed: 0.4
+  heading: 0
+  use_fixed_heading: False
+-
+  point: [-45, -45, -5]
+  max_forward_speed: 0.4
+  heading: 0
+  use_fixed_heading: False
+-
+  point: [0, -50, -5]
+  max_forward_speed: 0.4
+  heading: 0
+  use_fixed_heading: False
+-
+  point: [-5, -85, -5]
+  max_forward_speed: 0.4
+  heading: 0
+  use_fixed_heading: False
+-
+  point: [-55, -90, -5]
+  max_forward_speed: 0.4
+  heading: 0
+  use_fixed_heading: False
+-
+  point: [-45, -80, -5]
+  max_forward_speed: 0.4
+  heading: 0
+  use_fixed_heading: False
+-
+  point: [10, -85, -5]
+  max_forward_speed: 0.4
+  heading: 0
+  use_fixed_heading: False
+-
+  point: [10, 92, -5]
+  max_forward_speed: 0.4
+  heading: 0
+  use_fixed_heading: False
+-
+  point: [0, 92, -5]
+  max_forward_speed: 0.4
+  heading: 0
+  use_fixed_heading: False
+-
+  point: [5, -90, -5]
+  max_forward_speed: 0.4
+  heading: 0
+  use_fixed_heading: False
+-
+  point: [0, -40, -5]
+  max_forward_speed: 0.4
+  heading: 0
+  use_fixed_heading: False
+-
+  point: [25, 10, -5]
+  max_forward_speed: 0.4
+  heading: 0
+  use_fixed_heading: False
+-
+  point: [-50, -10, -5]
+  max_forward_speed: 0.4
+  heading: 0
+  use_fixed_heading: False
+-
+  point: [0, 0, -5]
+  max_forward_speed: 0.4
+  heading: 0
+  use_fixed_heading: False
+-
+  point: [-10, 45, -5]
+  max_forward_speed: 0.4
+  heading: 0
+  use_fixed_heading: False
+-
+  point: [-50, 30, -5]
+  max_forward_speed: 0.4
+  heading: 0
+  use_fixed_heading: False
+-
+  point: [-50, 60, -5]
+  max_forward_speed: 0.4
+  heading: 0
+  use_fixed_heading: False
+-
+  point: [0, 25, -5]
+  max_forward_speed: 0.4
+  heading: 0
+  use_fixed_heading: False
+-
+  point: [0, -100, -5]
+  max_forward_speed: 0.4
+  heading: 0
+  use_fixed_heading: False
+-
+  point: [-50, -90, -5]
+  max_forward_speed: 0.4
+  heading: 0
+  use_fixed_heading: False
+-
+  point: [5, -90, -5]
+  max_forward_speed: 0.4
+  heading: 0
+  use_fixed_heading: False
+-
+  point: [0, -50, -5]
+  max_forward_speed: 0.4
+  heading: 0
+  use_fixed_heading: False
+-
+  point: [-60, -55, -5]
+  max_forward_speed: 0.4
+  heading: 0
+  use_fixed_heading: False
+-
+  point: [0, -45, -5]
+  max_forward_speed: 0.4
+  heading: 0
+  use_fixed_heading: False
+-
+  point: [5, -5, -5]
+  max_forward_speed: 0.4
+  heading: 0
+  use_fixed_heading: False
+-
+  point: [-55, -5, -5]
+  max_forward_speed: 0.4
+  heading: 0
+  use_fixed_heading: False
+-
+  point: [0, 10, -5]
+  max_forward_speed: 0.4
+  heading: 0
+  use_fixed_heading: False
+-
+  point: [0, 35, -5]
+  max_forward_speed: 0.4
+  heading: 0
+  use_fixed_heading: False
+-
+  point: [-60, 60, -5]
+  max_forward_speed: 0.4
+  heading: 0
+  use_fixed_heading: False
+-
+  point: [30, 60, -5]
+  max_forward_speed: 0.4
+  heading: 0
+  use_fixed_heading: False
+-
+  point: [50, 50, -5]
+  max_forward_speed: 0.4
+  heading: 0
+  use_fixed_heading: False
+-
+  point: [50, 0, -5]
+  max_forward_speed: 0.4
+  heading: 0
+  use_fixed_heading: False
+-
+  point: [3, 3, -5]
+  max_forward_speed: 0.4
+  heading: 0
+  use_fixed_heading: False
+-
+  point: [50, -50, -5]
+  max_forward_speed: 0.4
+  heading: 0
+  use_fixed_heading: False
+-
+  point: [-50, -50, -5]
+  max_forward_speed: 0.4
+  heading: 0
+  use_fixed_heading: False
+-
+  point: [0, -45, -5]
+  max_forward_speed: 0.4
+  heading: 0
+  use_fixed_heading: False
+-
+  point: [25, 15, -5]
+  max_forward_speed: 0.4
+  heading: 0
+  use_fixed_heading: False
+-
+  point: [-25, 40, -5]
+  max_forward_speed: 0.4
+  heading: 0
+  use_fixed_heading: False
+-
+  point: [0, 50, -5]
+  max_forward_speed: 0.4
+  heading: 0
+  use_fixed_heading: False
+-
+  point: [5, -100, -5]
+  max_forward_speed: 0.4
+  heading: 0
+  use_fixed_heading: False
+-
+  point: [0, 100, -5]
+  max_forward_speed: 0.4
+  heading: 0
+  use_fixed_heading: False
+-
+  point: [-50, 100, -5]
+  max_forward_speed: 0.4
+  heading: 0
+  use_fixed_heading: False
+-
+  point: [0, 90, -5]
+  max_forward_speed: 0.4
+  heading: 0
+  use_fixed_heading: False
+-
+  point: [0, 25, -5]
+  max_forward_speed: 0.4
+  heading: 0
+  use_fixed_heading: False
+-
+  point: [50, -50, -5]
+  max_forward_speed: 0.4
+  heading: 0
+  use_fixed_heading: False

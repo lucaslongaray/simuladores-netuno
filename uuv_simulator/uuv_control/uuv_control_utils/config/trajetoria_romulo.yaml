@@ -1,0 +1,55 @@
+-
+  point: [15, 3, -4]
+  max_forward_speed: 0.4
+  heading: 0
+  use_fixed_heading: False
+-
+  point: [5, -15, -7]
+  max_forward_speed: 0.4
+  heading: 0
+  use_fixed_heading: False
+-
+  point: [10, -16, -5]
+  max_forward_speed: 0.4
+  heading: 0
+  use_fixed_heading: False
+-
+  point: [20, -5, -4]
+  max_forward_speed: 0.4
+  heading: 0
+  use_fixed_heading: False
+-
+  point: [0, 10, -2]
+  max_forward_speed: 0.4
+  heading: 0
+  use_fixed_heading: False
+-
+  point: [-5, 5, -5]
+  max_forward_speed: 0.4
+  heading: 0
+  use_fixed_heading: False
+-
+  point: [10, -10, -5]
+  max_forward_speed: 0.4
+  heading: 0
+  use_fixed_heading: False
+-
+  point: [12, -6, -4]
+  max_forward_speed: 0.4
+  heading: 0
+  use_fixed_heading: False
+-
+  point: [14, -8, -3]
+  max_forward_speed: 0.4
+  heading: 0
+  use_fixed_heading: False
+-
+  point: [14, -8, -1]
+  max_forward_speed: 0.4
+  heading: 0
+  use_fixed_heading: False
+-
+  point: [0, 0, -5]
+  max_forward_speed: 0.4
+  heading: 0
+  use_fixed_heading: False

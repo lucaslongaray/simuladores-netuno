@@ -1,0 +1,1037 @@
+Group {
+  name "terrain.obj"
+  nodeMask 0xffffffff
+  cullingActive TRUE
+  StateSet {
+    DataVariance STATIC
+    rendering_hint DEFAULT_BIN
+    renderBinMode INHERIT
+    Uniform {
+      name "reflectance"
+      type float 1 FloatArray 1
+      {
+        0.6
+      }
+    }
+  }
+  num_children 24
+  Geode {
+    name "Plane.001_Plane.004"
+    nodeMask 0xffffffff
+    cullingActive TRUE
+    num_drawables 1
+    Geometry {
+      DataVariance STATIC
+      StateSet {
+        UniqueID StateSet_0
+        DataVariance STATIC
+        rendering_hint DEFAULT_BIN
+        renderBinMode INHERIT
+        Material {
+          name "Material.005"
+          ColorMode OFF
+          ambientColor 0 0 0 1
+          diffuseColor 0.379227 0.379227 0.379227 1
+          specularColor 0.301105 0.301105 0.301105 1
+          emissionColor 0 0 0 1
+          shininess 12.288
+        }
+        textureUnit 0 {
+          GL_TEXTURE_2D ON
+          Texture2D {
+            file "textures/soil_sand_0045_01.jpg"
+            wrap_s REPEAT
+            wrap_t REPEAT
+            wrap_r REPEAT
+            min_filter LINEAR_MIPMAP_LINEAR
+            mag_filter LINEAR
+            maxAnisotropy 1
+            borderColor 0 0 0 0
+            borderWidth 0
+            useHardwareMipMapGeneration TRUE
+            unRefImageDataAfterApply TRUE
+            internalFormatMode USE_IMAGE_DATA_FORMAT
+            resizeNonPowerOfTwo TRUE
+            shadowComparison FALSE
+            shadowCompareFunc GL_LEQUAL
+            shadowTextureMode GL_LUMINANCE
+          }
+        }
+      }
+      useDisplayList TRUE
+      useVertexBufferObjects FALSE
+      PrimitiveSets 1
+      {
+        DrawElementsUShort TRIANGLE_STRIP 4
+        {
+          1 2 0 3 
+        }
+      }
+      VertexArray Vec3Array 4
+      {
+        -47.3483 64.5037 -7.5
+        12.6282 64.5037 -7.5
+        12.6282 124.48 -7.5
+        -47.3483 124.48 -7.5
+      }
+      NormalBinding PER_VERTEX
+      NormalArray Vec3Array 4
+      {
+        0 0 1
+        0 0 1
+        0 0 1
+        0 0 1
+      }
+      TexCoordArray 0 Vec2Array 4
+      {
+        0.0001 0.0001
+        0.9999 0.0001
+        0.9999 0.9999
+        0.0001 0.9999
+      }
+    }
+  }
+  Geode {
+    name "Plane.002_Plane.005"
+    nodeMask 0xffffffff
+    cullingActive TRUE
+    num_drawables 1
+    Geometry {
+      DataVariance STATIC
+      Use StateSet_0
+      useDisplayList TRUE
+      useVertexBufferObjects FALSE
+      PrimitiveSets 1
+      {
+        DrawElementsUShort TRIANGLE_STRIP 4
+        {
+          1 2 0 3 
+        }
+      }
+      VertexArray Vec3Array 4
+      {
+        11.814 64.5037 -7.5
+        71.7906 64.5037 -7.5
+        71.7906 124.48 -7.5
+        11.814 124.48 -7.5
+      }
+      NormalBinding PER_VERTEX
+      NormalArray Vec3Array 4
+      {
+        0 0 1
+        0 0 1
+        0 0 1
+        0 0 1
+      }
+      TexCoordArray 0 Vec2Array 4
+      {
+        0.0001 0.0001
+        0.9999 0.0001
+        0.9999 0.9999
+        0.0001 0.9999
+      }
+    }
+  }
+  Geode {
+    name "Plane.003_Plane.006"
+    nodeMask 0xffffffff
+    cullingActive TRUE
+    num_drawables 1
+    Geometry {
+      DataVariance STATIC
+      Use StateSet_0
+      useDisplayList TRUE
+      useVertexBufferObjects FALSE
+      PrimitiveSets 1
+      {
+        DrawElementsUShort TRIANGLE_STRIP 4
+        {
+          1 2 0 3 
+        }
+      }
+      VertexArray Vec3Array 4
+      {
+        71.1896 64.5037 -7.5
+        131.166 64.5037 -7.5
+        131.166 124.48 -7.5
+        71.1896 124.48 -7.5
+      }
+      NormalBinding PER_VERTEX
+      NormalArray Vec3Array 4
+      {
+        0 0 1
+        0 0 1
+        0 0 1
+        0 0 1
+      }
+      TexCoordArray 0 Vec2Array 4
+      {
+        0.0001 0.0001
+        0.9999 0.0001
+        0.9999 0.9999
+        0.0001 0.9999
+      }
+    }
+  }
+  Geode {
+    name "Plane.004_Plane.007"
+    nodeMask 0xffffffff
+    cullingActive TRUE
+    num_drawables 1
+    Geometry {
+      DataVariance STATIC
+      Use StateSet_0
+      useDisplayList TRUE
+      useVertexBufferObjects FALSE
+      PrimitiveSets 1
+      {
+        DrawElementsUShort TRIANGLE_STRIP 4
+        {
+          1 2 0 3 
+        }
+      }
+      VertexArray Vec3Array 4
+      {
+        -107.083 4.70322 -7.5
+        -47.1061 4.70322 -7.5
+        -47.1061 64.6798 -7.5
+        -107.083 64.6798 -7.5
+      }
+      NormalBinding PER_VERTEX
+      NormalArray Vec3Array 4
+      {
+        0 0 1
+        0 0 1
+        0 0 1
+        0 0 1
+      }
+      TexCoordArray 0 Vec2Array 4
+      {
+        0.0001 0.0001
+        0.9999 0.0001
+        0.9999 0.9999
+        0.0001 0.9999
+      }
+    }
+  }
+  Geode {
+    name "Plane.005_Plane.009"
+    nodeMask 0xffffffff
+    cullingActive TRUE
+    num_drawables 1
+    Geometry {
+      DataVariance STATIC
+      Use StateSet_0
+      useDisplayList TRUE
+      useVertexBufferObjects FALSE
+      PrimitiveSets 1
+      {
+        DrawElementsUShort TRIANGLE_STRIP 4
+        {
+          1 2 0 3 
+        }
+      }
+      VertexArray Vec3Array 4
+      {
+        -107.083 -55.1298 -7.5
+        -47.1061 -55.1298 -7.5
+        -47.1061 4.84678 -7.5
+        -107.083 4.84678 -7.5
+      }
+      NormalBinding PER_VERTEX
+      NormalArray Vec3Array 4
+      {
+        0 0 1
+        0 0 1
+        0 0 1
+        0 0 1
+      }
+      TexCoordArray 0 Vec2Array 4
+      {
+        0.0001 0.0001
+        0.9999 0.0001
+        0.9999 0.9999
+        0.0001 0.9999
+      }
+    }
+  }
+  Geode {
+    name "Plane.006_Plane.010"
+    nodeMask 0xffffffff
+    cullingActive TRUE
+    num_drawables 1
+    Geometry {
+      DataVariance STATIC
+      Use StateSet_0
+      useDisplayList TRUE
+      useVertexBufferObjects FALSE
+      PrimitiveSets 1
+      {
+        DrawElementsUShort TRIANGLE_STRIP 4
+        {
+          1 2 0 3 
+        }
+      }
+      VertexArray Vec3Array 4
+      {
+        -107.083 -114.447 -7.5
+        -47.1061 -114.447 -7.5
+        -47.1061 -54.4708 -7.5
+        -107.083 -54.4708 -7.5
+      }
+      NormalBinding PER_VERTEX
+      NormalArray Vec3Array 4
+      {
+        0 0 1
+        0 0 1
+        0 0 1
+        0 0 1
+      }
+      TexCoordArray 0 Vec2Array 4
+      {
+        0.0001 0.0001
+        0.9999 0.0001
+        0.9999 0.9999
+        0.0001 0.9999
+      }
+    }
+  }
+  Geode {
+    name "Plane.007_Plane.011"
+    nodeMask 0xffffffff
+    cullingActive TRUE
+    num_drawables 1
+    Geometry {
+      DataVariance STATIC
+      Use StateSet_0
+      useDisplayList TRUE
+      useVertexBufferObjects FALSE
+      PrimitiveSets 1
+      {
+        DrawElementsUShort TRIANGLE_STRIP 4
+        {
+          1 2 0 3 
+        }
+      }
+      VertexArray Vec3Array 4
+      {
+        -107.083 -173.915 -7.5
+        -47.1061 -173.915 -7.5
+        -47.1061 -113.939 -7.5
+        -107.083 -113.939 -7.5
+      }
+      NormalBinding PER_VERTEX
+      NormalArray Vec3Array 4
+      {
+        0 0 1
+        0 0 1
+        0 0 1
+        0 0 1
+      }
+      TexCoordArray 0 Vec2Array 4
+      {
+        0.0001 0.0001
+        0.9999 0.0001
+        0.9999 0.9999
+        0.0001 0.9999
+      }
+    }
+  }
+  Geode {
+    name "Plane.008_Plane.012"
+    nodeMask 0xffffffff
+    cullingActive TRUE
+    num_drawables 1
+    Geometry {
+      DataVariance STATIC
+      Use StateSet_0
+      useDisplayList TRUE
+      useVertexBufferObjects FALSE
+      PrimitiveSets 1
+      {
+        DrawElementsUShort TRIANGLE_STRIP 4
+        {
+          1 2 0 3 
+        }
+      }
+      VertexArray Vec3Array 4
+      {
+        71.1896 4.60855 -7.5
+        131.166 4.60855 -7.5
+        131.166 64.5851 -7.5
+        71.1896 64.5851 -7.5
+      }
+      NormalBinding PER_VERTEX
+      NormalArray Vec3Array 4
+      {
+        0 0 1
+        0 0 1
+        0 0 1
+        0 0 1
+      }
+      TexCoordArray 0 Vec2Array 4
+      {
+        0.0001 0.0001
+        0.9999 0.0001
+        0.9999 0.9999
+        0.0001 0.9999
+      }
+    }
+  }
+  Geode {
+    name "Plane.009_Plane.013"
+    nodeMask 0xffffffff
+    cullingActive TRUE
+    num_drawables 1
+    Geometry {
+      DataVariance STATIC
+      Use StateSet_0
+      useDisplayList TRUE
+      useVertexBufferObjects FALSE
+      PrimitiveSets 1
+      {
+        DrawElementsUShort TRIANGLE_STRIP 4
+        {
+          1 2 0 3 
+        }
+      }
+      VertexArray Vec3Array 4
+      {
+        11.814 4.60855 -7.5
+        71.7906 4.60855 -7.5
+        71.7906 64.5851 -7.5
+        11.814 64.5851 -7.5
+      }
+      NormalBinding PER_VERTEX
+      NormalArray Vec3Array 4
+      {
+        0 0 1
+        0 0 1
+        0 0 1
+        0 0 1
+      }
+      TexCoordArray 0 Vec2Array 4
+      {
+        0.0001 0.0001
+        0.9999 0.0001
+        0.9999 0.9999
+        0.0001 0.9999
+      }
+    }
+  }
+  Geode {
+    name "Plane.010_Plane.014"
+    nodeMask 0xffffffff
+    cullingActive TRUE
+    num_drawables 1
+    Geometry {
+      DataVariance STATIC
+      Use StateSet_0
+      useDisplayList TRUE
+      useVertexBufferObjects FALSE
+      PrimitiveSets 1
+      {
+        DrawElementsUShort TRIANGLE_STRIP 4
+        {
+          1 2 0 3 
+        }
+      }
+      VertexArray Vec3Array 4
+      {
+        -47.3483 4.60855 -7.5
+        12.6282 4.60855 -7.5
+        12.6282 64.5851 -7.5
+        -47.3483 64.5851 -7.5
+      }
+      NormalBinding PER_VERTEX
+      NormalArray Vec3Array 4
+      {
+        0 0 1
+        0 0 1
+        0 0 1
+        0 0 1
+      }
+      TexCoordArray 0 Vec2Array 4
+      {
+        0.0001 0.0001
+        0.9999 0.0001
+        0.9999 0.9999
+        0.0001 0.9999
+      }
+    }
+  }
+  Geode {
+    name "Plane.011_Plane.015"
+    nodeMask 0xffffffff
+    cullingActive TRUE
+    num_drawables 1
+    Geometry {
+      DataVariance STATIC
+      Use StateSet_0
+      useDisplayList TRUE
+      useVertexBufferObjects FALSE
+      PrimitiveSets 1
+      {
+        DrawElementsUShort TRIANGLE_STRIP 4
+        {
+          1 2 0 3 
+        }
+      }
+      VertexArray Vec3Array 4
+      {
+        -47.3483 -115.146 -7.5
+        12.6282 -115.146 -7.5
+        12.6282 -55.1691 -7.5
+        -47.3483 -55.1691 -7.5
+      }
+      NormalBinding PER_VERTEX
+      NormalArray Vec3Array 4
+      {
+        0 0 1
+        0 0 1
+        0 0 1
+        0 0 1
+      }
+      TexCoordArray 0 Vec2Array 4
+      {
+        0.0001 0.0001
+        0.9999 0.0001
+        0.9999 0.9999
+        0.0001 0.9999
+      }
+    }
+  }
+  Geode {
+    name "Plane.012_Plane.016"
+    nodeMask 0xffffffff
+    cullingActive TRUE
+    num_drawables 1
+    Geometry {
+      DataVariance STATIC
+      Use StateSet_0
+      useDisplayList TRUE
+      useVertexBufferObjects FALSE
+      PrimitiveSets 1
+      {
+        DrawElementsUShort TRIANGLE_STRIP 4
+        {
+          1 2 0 3 
+        }
+      }
+      VertexArray Vec3Array 4
+      {
+        11.814 -115.146 -7.5
+        71.7906 -115.146 -7.5
+        71.7906 -55.1691 -7.5
+        11.814 -55.1691 -7.5
+      }
+      NormalBinding PER_VERTEX
+      NormalArray Vec3Array 4
+      {
+        0 0 1
+        0 0 1
+        0 0 1
+        0 0 1
+      }
+      TexCoordArray 0 Vec2Array 4
+      {
+        0.0001 0.0001
+        0.9999 0.0001
+        0.9999 0.9999
+        0.0001 0.9999
+      }
+    }
+  }
+  Geode {
+    name "Plane.013_Plane.017"
+    nodeMask 0xffffffff
+    cullingActive TRUE
+    num_drawables 1
+    Geometry {
+      DataVariance STATIC
+      Use StateSet_0
+      useDisplayList TRUE
+      useVertexBufferObjects FALSE
+      PrimitiveSets 1
+      {
+        DrawElementsUShort TRIANGLE_STRIP 4
+        {
+          1 2 0 3 
+        }
+      }
+      VertexArray Vec3Array 4
+      {
+        71.1896 -115.146 -7.5
+        131.166 -115.146 -7.5
+        131.166 -55.1691 -7.5
+        71.1896 -55.1691 -7.5
+      }
+      NormalBinding PER_VERTEX
+      NormalArray Vec3Array 4
+      {
+        0 0 1
+        0 0 1
+        0 0 1
+        0 0 1
+      }
+      TexCoordArray 0 Vec2Array 4
+      {
+        0.0001 0.0001
+        0.9999 0.0001
+        0.9999 0.9999
+        0.0001 0.9999
+      }
+    }
+  }
+  Geode {
+    name "Plane.014_Plane.018"
+    nodeMask 0xffffffff
+    cullingActive TRUE
+    num_drawables 1
+    Geometry {
+      DataVariance STATIC
+      Use StateSet_0
+      useDisplayList TRUE
+      useVertexBufferObjects FALSE
+      PrimitiveSets 1
+      {
+        DrawElementsUShort TRIANGLE_STRIP 4
+        {
+          1 2 0 3 
+        }
+      }
+      VertexArray Vec3Array 4
+      {
+        71.1896 -55.2506 -7.5
+        131.166 -55.2506 -7.5
+        131.166 4.72602 -7.5
+        71.1896 4.72602 -7.5
+      }
+      NormalBinding PER_VERTEX
+      NormalArray Vec3Array 4
+      {
+        0 0 1
+        0 0 1
+        0 0 1
+        0 0 1
+      }
+      TexCoordArray 0 Vec2Array 4
+      {
+        0.0001 0.0001
+        0.9999 0.0001
+        0.9999 0.9999
+        0.0001 0.9999
+      }
+    }
+  }
+  Geode {
+    name "Plane.015_Plane.019"
+    nodeMask 0xffffffff
+    cullingActive TRUE
+    num_drawables 1
+    Geometry {
+      DataVariance STATIC
+      Use StateSet_0
+      useDisplayList TRUE
+      useVertexBufferObjects FALSE
+      PrimitiveSets 1
+      {
+        DrawElementsUShort TRIANGLE_STRIP 4
+        {
+          1 2 0 3 
+        }
+      }
+      VertexArray Vec3Array 4
+      {
+        11.814 -55.2506 -7.5
+        71.7906 -55.2506 -7.5
+        71.7906 4.72602 -7.5
+        11.814 4.72602 -7.5
+      }
+      NormalBinding PER_VERTEX
+      NormalArray Vec3Array 4
+      {
+        0 0 1
+        0 0 1
+        0 0 1
+        0 0 1
+      }
+      TexCoordArray 0 Vec2Array 4
+      {
+        0.0001 0.0001
+        0.9999 0.0001
+        0.9999 0.9999
+        0.0001 0.9999
+      }
+    }
+  }
+  Geode {
+    name "Plane.016_Plane.020"
+    nodeMask 0xffffffff
+    cullingActive TRUE
+    num_drawables 1
+    Geometry {
+      DataVariance STATIC
+      Use StateSet_0
+      useDisplayList TRUE
+      useVertexBufferObjects FALSE
+      PrimitiveSets 1
+      {
+        DrawElementsUShort TRIANGLE_STRIP 4
+        {
+          1 2 0 3 
+        }
+      }
+      VertexArray Vec3Array 4
+      {
+        -47.3483 -55.2506 -7.5
+        12.6282 -55.2506 -7.5
+        12.6282 4.72602 -7.5
+        -47.3483 4.72602 -7.5
+      }
+      NormalBinding PER_VERTEX
+      NormalArray Vec3Array 4
+      {
+        0 0 1
+        0 0 1
+        0 0 1
+        0 0 1
+      }
+      TexCoordArray 0 Vec2Array 4
+      {
+        0.0001 0.0001
+        0.9999 0.0001
+        0.9999 0.9999
+        0.0001 0.9999
+      }
+    }
+  }
+  Geode {
+    name "Plane.017_Plane.021"
+    nodeMask 0xffffffff
+    cullingActive TRUE
+    num_drawables 1
+    Geometry {
+      DataVariance STATIC
+      Use StateSet_0
+      useDisplayList TRUE
+      useVertexBufferObjects FALSE
+      PrimitiveSets 1
+      {
+        DrawElementsUShort TRIANGLE_STRIP 4
+        {
+          1 2 0 3 
+        }
+      }
+      VertexArray Vec3Array 4
+      {
+        71.1896 -173.855 -7.5
+        131.166 -173.855 -7.5
+        131.166 -113.879 -7.5
+        71.1896 -113.879 -7.5
+      }
+      NormalBinding PER_VERTEX
+      NormalArray Vec3Array 4
+      {
+        0 0 1
+        0 0 1
+        0 0 1
+        0 0 1
+      }
+      TexCoordArray 0 Vec2Array 4
+      {
+        0.0001 0.0001
+        0.9999 0.0001
+        0.9999 0.9999
+        0.0001 0.9999
+      }
+    }
+  }
+  Geode {
+    name "Plane.018_Plane.022"
+    nodeMask 0xffffffff
+    cullingActive TRUE
+    num_drawables 1
+    Geometry {
+      DataVariance STATIC
+      Use StateSet_0
+      useDisplayList TRUE
+      useVertexBufferObjects FALSE
+      PrimitiveSets 1
+      {
+        DrawElementsUShort TRIANGLE_STRIP 4
+        {
+          1 2 0 3 
+        }
+      }
+      VertexArray Vec3Array 4
+      {
+        11.814 -173.855 -7.5
+        71.7906 -173.855 -7.5
+        71.7906 -113.879 -7.5
+        11.814 -113.879 -7.5
+      }
+      NormalBinding PER_VERTEX
+      NormalArray Vec3Array 4
+      {
+        0 0 1
+        0 0 1
+        0 0 1
+        0 0 1
+      }
+      TexCoordArray 0 Vec2Array 4
+      {
+        0.0001 0.0001
+        0.9999 0.0001
+        0.9999 0.9999
+        0.0001 0.9999
+      }
+    }
+  }
+  Geode {
+    name "Plane.019_Plane.023"
+    nodeMask 0xffffffff
+    cullingActive TRUE
+    num_drawables 1
+    Geometry {
+      DataVariance STATIC
+      Use StateSet_0
+      useDisplayList TRUE
+      useVertexBufferObjects FALSE
+      PrimitiveSets 1
+      {
+        DrawElementsUShort TRIANGLE_STRIP 4
+        {
+          1 2 0 3 
+        }
+      }
+      VertexArray Vec3Array 4
+      {
+        -47.3483 -173.855 -7.5
+        12.6282 -173.855 -7.5
+        12.6282 -113.879 -7.5
+        -47.3483 -113.879 -7.5
+      }
+      NormalBinding PER_VERTEX
+      NormalArray Vec3Array 4
+      {
+        0 0 1
+        0 0 1
+        0 0 1
+        0 0 1
+      }
+      TexCoordArray 0 Vec2Array 4
+      {
+        0.0001 0.0001
+        0.9999 0.0001
+        0.9999 0.9999
+        0.0001 0.9999
+      }
+    }
+  }
+  Geode {
+    name "Plane.020_Plane.024"
+    nodeMask 0xffffffff
+    cullingActive TRUE
+    num_drawables 1
+    Geometry {
+      DataVariance STATIC
+      Use StateSet_0
+      useDisplayList TRUE
+      useVertexBufferObjects FALSE
+      PrimitiveSets 1
+      {
+        DrawElementsUShort TRIANGLE_STRIP 4
+        {
+          1 2 0 3 
+        }
+      }
+      VertexArray Vec3Array 4
+      {
+        71.1896 124.172 -7.5
+        131.166 124.172 -7.5
+        131.166 184.149 -7.5
+        71.1896 184.149 -7.5
+      }
+      NormalBinding PER_VERTEX
+      NormalArray Vec3Array 4
+      {
+        0 0 1
+        0 0 1
+        0 0 1
+        0 0 1
+      }
+      TexCoordArray 0 Vec2Array 4
+      {
+        0.0001 0.0001
+        0.9999 0.0001
+        0.9999 0.9999
+        0.0001 0.9999
+      }
+    }
+  }
+  Geode {
+    name "Plane.021_Plane.025"
+    nodeMask 0xffffffff
+    cullingActive TRUE
+    num_drawables 1
+    Geometry {
+      DataVariance STATIC
+      Use StateSet_0
+      useDisplayList TRUE
+      useVertexBufferObjects FALSE
+      PrimitiveSets 1
+      {
+        DrawElementsUShort TRIANGLE_STRIP 4
+        {
+          1 2 0 3 
+        }
+      }
+      VertexArray Vec3Array 4
+      {
+        11.814 124.172 -7.5
+        71.7906 124.172 -7.5
+        71.7906 184.149 -7.5
+        11.814 184.149 -7.5
+      }
+      NormalBinding PER_VERTEX
+      NormalArray Vec3Array 4
+      {
+        0 0 1
+        0 0 1
+        0 0 1
+        0 0 1
+      }
+      TexCoordArray 0 Vec2Array 4
+      {
+        0.0001 0.0001
+        0.9999 0.0001
+        0.9999 0.9999
+        0.0001 0.9999
+      }
+    }
+  }
+  Geode {
+    name "Plane.022_Plane.026"
+    nodeMask 0xffffffff
+    cullingActive TRUE
+    num_drawables 1
+    Geometry {
+      DataVariance STATIC
+      Use StateSet_0
+      useDisplayList TRUE
+      useVertexBufferObjects FALSE
+      PrimitiveSets 1
+      {
+        DrawElementsUShort TRIANGLE_STRIP 4
+        {
+          1 2 0 3 
+        }
+      }
+      VertexArray Vec3Array 4
+      {
+        -47.3483 124.172 -7.5
+        12.6282 124.172 -7.5
+        12.6282 184.149 -7.5
+        -47.3483 184.149 -7.5
+      }
+      NormalBinding PER_VERTEX
+      NormalArray Vec3Array 4
+      {
+        0 0 1
+        0 0 1
+        0 0 1
+        0 0 1
+      }
+      TexCoordArray 0 Vec2Array 4
+      {
+        0.0001 0.0001
+        0.9999 0.0001
+        0.9999 0.9999
+        0.0001 0.9999
+      }
+    }
+  }
+  Geode {
+    name "Plane.023_Plane.027"
+    nodeMask 0xffffffff
+    cullingActive TRUE
+    num_drawables 1
+    Geometry {
+      DataVariance STATIC
+      Use StateSet_0
+      useDisplayList TRUE
+      useVertexBufferObjects FALSE
+      PrimitiveSets 1
+      {
+        DrawElementsUShort TRIANGLE_STRIP 4
+        {
+          1 2 0 3 
+        }
+      }
+      VertexArray Vec3Array 4
+      {
+        -107.083 124.172 -7.5
+        -47.1061 124.172 -7.5
+        -47.1061 184.149 -7.5
+        -107.083 184.149 -7.5
+      }
+      NormalBinding PER_VERTEX
+      NormalArray Vec3Array 4
+      {
+        0 0 1
+        0 0 1
+        0 0 1
+        0 0 1
+      }
+      TexCoordArray 0 Vec2Array 4
+      {
+        0.0001 0.0001
+        0.9999 0.0001
+        0.9999 0.9999
+        0.0001 0.9999
+      }
+    }
+  }
+  Geode {
+    name "Plane_Plane.001"
+    nodeMask 0xffffffff
+    cullingActive TRUE
+    num_drawables 1
+    Geometry {
+      DataVariance STATIC
+      Use StateSet_0
+      useDisplayList TRUE
+      useVertexBufferObjects FALSE
+      PrimitiveSets 1
+      {
+        DrawElementsUShort TRIANGLE_STRIP 4
+        {
+          1 2 0 3 
+        }
+      }
+      VertexArray Vec3Array 4
+      {
+        -107.083 64.5037 -7.5
+        -47.1061 64.5037 -7.5
+        -47.1061 124.48 -7.5
+        -107.083 124.48 -7.5
+      }
+      NormalBinding PER_VERTEX
+      NormalArray Vec3Array 4
+      {
+        0 0 1
+        0 0 1
+        0 0 1
+        0 0 1
+      }
+      TexCoordArray 0 Vec2Array 4
+      {
+        0.0001 0.0001
+        0.9999 0.0001
+        0.9999 0.9999
+        0.0001 0.9999
+      }
+    }
+  }
+}

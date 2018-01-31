@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<sdf version="1.0">
+  <model name="yacht_scene">
+    <static>true</static>
+    <link name="link">
+      <collision name="scene">
+        <pose>0 0 0 0 0 0</pose>
+        <geometry>
+          <mesh><uri>model://yacht_scene/yacht-collision.stl</uri></mesh>
+        </geometry>
+      </collision>
+
+      <visual name="scene">
+        <cast_shadows>false</cast_shadows>
+        <pose>0 0 0 0 0 0</pose>
+        <geometry>
+          <mesh><uri>model://yacht_scene/yacht.dae</uri></mesh>
+        </geometry>
+      </visual>
+    </link>
+  </model>
+</sdf>

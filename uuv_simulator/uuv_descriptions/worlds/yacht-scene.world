@@ -1,0 +1,276 @@
+<sdf version='1.6'>
+  <world name='yacht'>
+    <light name='sun' type='directional'>
+      <cast_shadows>1</cast_shadows>
+      <pose frame=''>0 0 10 0 -0 0</pose>
+      <diffuse>0.8 0.8 0.8 1</diffuse>
+      <specular>0.1 0.1 0.1 1</specular>
+      <attenuation>
+        <range>1000</range>
+        <constant>0.9</constant>
+        <linear>0.01</linear>
+        <quadratic>0.001</quadratic>
+      </attenuation>
+      <direction>-0.5 0.5 -1</direction>
+    </light>
+    <model name='yacht_scene'>
+      <static>1</static>
+      <link name='link'>
+        <collision name='scene'>
+          <pose frame=''>0 0 0 0 -0 0</pose>
+          <geometry>
+            <mesh>
+              <uri>model://yacht_scene/yacht-collision.dae</uri>
+              <scale>1 1 1</scale>
+            </mesh>
+          </geometry>
+          <max_contacts>10</max_contacts>
+          <surface>
+            <contact>
+              <ode/>
+            </contact>
+            <bounce/>
+            <friction>
+              <torsional>
+                <ode/>
+              </torsional>
+              <ode/>
+            </friction>
+          </surface>
+        </collision>
+        <visual name='scene'>
+          <cast_shadows>0</cast_shadows>
+          <pose frame=''>0 0 0 0 -0 0</pose>
+          <geometry>
+            <mesh>
+              <uri>model://yacht_scene/yacht.dae</uri>
+              <scale>1 1 1</scale>
+            </mesh>
+          </geometry>
+        </visual>
+        <self_collide>0</self_collide>
+        <kinematic>0</kinematic>
+      </link>
+      <pose frame=''>0 0 0 0 -0 0</pose>
+    </model>
+    <plugin name='underwater_world' filename='libuuv_underwater_world_ros_plugin.so'>
+      <namespace>hydrodynamics</namespace>
+      <constant_current>
+        <topic>current_velocity</topic>
+        <velocity>
+          <mean>0</mean>
+          <min>-5</min>
+          <max>5</max>
+          <mu>0.0</mu>
+          <noiseAmp>0.0</noiseAmp>
+        </velocity>
+        <direction>
+          <mean>0</mean>
+          <min>-1.5707963267948966</min>
+          <max>1.5707963267948966</max>
+          <mu>0.0</mu>
+          <noiseAmp>0.0</noiseAmp>
+        </direction>
+      </constant_current>
+    </plugin>
+    <gravity>0 0 -9.8</gravity>
+    <magnetic_field>6e-06 2.3e-05 -4.2e-05</magnetic_field>
+    <atmosphere type='adiabatic'/>
+    <physics name='default_physics' default='0' type='ode'>
+      <max_step_size>0.001</max_step_size>
+      <real_time_factor>1</real_time_factor>
+      <real_time_update_rate>1000</real_time_update_rate>
+    </physics>
+    <scene>
+      <ambient>0.4 0.4 0.4 1</ambient>
+      <background>0.7 0.7 0.7 1</background>
+      <shadows>1</shadows>
+    </scene>
+    <spherical_coordinates>
+      <surface_model>EARTH_WGS84</surface_model>
+      <latitude_deg>0</latitude_deg>
+      <longitude_deg>0</longitude_deg>
+      <elevation>0</elevation>
+      <heading_deg>0</heading_deg>
+    </spherical_coordinates>
+    <state world_name='yacht'>
+      <sim_time>0 0</sim_time>
+      <real_time>0 0</real_time>
+      <wall_time>1486574938 413963664</wall_time>
+      <iterations>0</iterations>
+      <model name='yacht_ocean'>
+        <pose frame=''>0 0 0 0 -0 0</pose>
+        <scale>1 1 1</scale>
+        <link name='link'>
+          <pose frame=''>0 0 0 0 -0 0</pose>
+          <velocity>0 0 0 0 -0 0</velocity>
+          <acceleration>0 0 0 0 -0 0</acceleration>
+          <wrench>0 0 0 0 -0 0</wrench>
+        </link>
+      </model>
+      <model name='yacht_scene'>
+        <pose frame=''>0 0 0 0 -0 0</pose>
+        <scale>1 1 1</scale>
+        <link name='link'>
+          <pose frame=''>0 0 0 0 -0 0</pose>
+          <velocity>0 0 0 0 -0 0</velocity>
+          <acceleration>0 0 0 0 -0 0</acceleration>
+          <wrench>0 0 0 0 -0 0</wrench>
+        </link>
+      </model>
+      <light name='sun'>
+        <pose frame=''>0 0 10 0 -0 0</pose>
+      </light>
+    </state>
+    <model name='yacht_ocean'>
+      <link name='link'>
+        <pose frame=''>0 0 0 0 -0 0</pose>
+        <self_collide>0</self_collide>
+        <kinematic>0</kinematic>
+        <gravity>1</gravity>
+        <inertial>
+          <mass>1</mass>
+          <pose frame=''>0 0 0 0 -0 0</pose>
+          <inertia>
+            <ixx>1</ixx>
+            <ixy>0</ixy>
+            <ixz>0</ixz>
+            <iyy>1</iyy>
+            <iyz>0</iyz>
+            <izz>1</izz>
+          </inertia>
+        </inertial>
+        <visual name='surface'>
+          <cast_shadows>0</cast_shadows>
+          <pose frame=''>0 0 0 0 -0 0</pose>
+          <geometry>
+            <box>
+              <size>79.1 158.2 0.001</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <uri>model://yacht_ocean/materials/scripts</uri>
+              <uri>model://yacht_ocean/materials/textures</uri>
+              <name>UUV/Water</name>
+            </script>
+            <ambient>0.5 0.5 0.5 0.8</ambient>
+            <diffuse>0.5 0.5 0.5 0.8</diffuse>
+            <specular>0 0 0 1</specular>
+            <emissive>0 0 0 1</emissive>
+            <shader type='vertex'>
+              <normal_map>__default__</normal_map>
+            </shader>
+          </material>
+          <transparency>0.2</transparency>
+        </visual>
+        <visual name='north'>
+          <cast_shadows>0</cast_shadows>
+          <pose frame=''>39.5 0 -1.4 0 -0 0</pose>
+          <geometry>
+            <box>
+              <size>0.1 158.2 2.8</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <uri>model://yacht_ocean/materials/scripts</uri>
+              <uri>model://yacht_ocean/materials/textures</uri>
+              <name>UUV/Water</name>
+            </script>
+            <ambient>0.5 0.5 0.5 0.8</ambient>
+            <diffuse>0.5 0.5 0.5 0.8</diffuse>
+            <specular>0 0 0 1</specular>
+            <emissive>0 0 0 1</emissive>
+            <shader type='vertex'>
+              <normal_map>__default__</normal_map>
+            </shader>
+          </material>
+          <transparency>0.2</transparency>
+        </visual>
+        <visual name='south'>
+          <cast_shadows>0</cast_shadows>
+          <pose frame=''>-39.7 0 -0.95 0 -0 0</pose>
+          <geometry>
+            <box>
+              <size>0.1 158.2 1.9</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <uri>model://yacht_ocean/materials/scripts</uri>
+              <uri>model://yacht_ocean/materials/textures</uri>
+              <name>UUV/Water</name>
+            </script>
+            <ambient>0.5 0.5 0.5 0.8</ambient>
+            <diffuse>0.5 0.5 0.5 0.8</diffuse>
+            <specular>0 0 0 1</specular>
+            <emissive>0 0 0 1</emissive>
+            <shader type='vertex'>
+              <normal_map>__default__</normal_map>
+            </shader>
+          </material>
+          <transparency>0.2</transparency>
+        </visual>
+        <visual name='east'>
+          <cast_shadows>0</cast_shadows>
+          <pose frame=''>0 -79.1 -1.4 0 -0 0</pose>
+          <geometry>
+            <box>
+              <size>79.1 0.1 2.8</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <uri>model://yacht_ocean/materials/scripts</uri>
+              <uri>model://yacht_ocean/materials/textures</uri>
+              <name>UUV/Water</name>
+            </script>
+            <ambient>0.5 0.5 0.5 0.8</ambient>
+            <diffuse>0.5 0.5 0.5 0.8</diffuse>
+            <specular>0 0 0 1</specular>
+            <emissive>0 0 0 1</emissive>
+            <shader type='vertex'>
+              <normal_map>__default__</normal_map>
+            </shader>
+          </material>
+          <transparency>0.2</transparency>
+        </visual>
+        <visual name='west'>
+          <cast_shadows>0</cast_shadows>
+          <pose frame=''>0 79.1 -1.4 0 -0 0</pose>
+          <geometry>
+            <box>
+              <size>79.1 0.1 2.8</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <uri>model://yacht_ocean/materials/scripts</uri>
+              <uri>model://yacht_ocean/materials/textures</uri>
+              <name>UUV/Water</name>
+            </script>
+            <ambient>0.5 0.5 0.5 0.8</ambient>
+            <diffuse>0.5 0.5 0.5 0.8</diffuse>
+            <specular>0 0 0 1</specular>
+            <emissive>0 0 0 1</emissive>
+            <shader type='vertex'>
+              <normal_map>__default__</normal_map>
+            </shader>
+          </material>
+          <transparency>0.2</transparency>
+        </visual>
+      </link>
+      <static>1</static>
+      <allow_auto_disable>1</allow_auto_disable>
+      <pose frame=''>0 0 0 0 -0 0</pose>
+    </model>
+    <gui fullscreen='0'>
+      <camera name='user_camera'>
+        <pose frame=''>47.044 80.915 1.73597 0 0.195643 -2.819</pose>
+        <view_controller>orbit</view_controller>
+        <projection_type>perspective</projection_type>
+      </camera>
+    </gui>
+  </world>
+</sdf>
